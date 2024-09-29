@@ -17,3 +17,7 @@ body {
   --secondary-text: #9093a6;
   --light-text: #d4d7e5;
 }
+p {
+  margin : 0;
+  padding : 0
+}

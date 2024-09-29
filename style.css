@@ -44,7 +44,65 @@
   cursor: pointer;
   opacity: 0.6;
 }
-
+.delivery {
+  display: flex;
+  flex-direction: row;
+}
+.img-banner img {
+  width : 100%
+}
 #banner {
-  padding-top: 5%;
+padding-top: 10%;
+font-family: Poppins;
+}
+.banner-info > h3 {
+font-family: Poppins;
+font-size: 58px;
+font-weight: 300;
+line-height: 64px;
+letter-spacing: 0.05em;
+text-align: left;
+}
+.banner-info > h3 > span {
+  font-weight: 200;
+  font-size : 32px
+}
+.shipping  {
+padding: 16px 24px 16px 24px;
+gap: 24px;
+border-radius: 4px 0px 0px 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+flex-direction: row;
+margin-top : 88px
+}
+.shipping > .btn {
+  display: flex;
+  flex-direction: column;
+  border : 2px 
+  solid var( --primary-color) ; 
+  align-items: center;  
+  justify-content: center;
+  padding : 18.5px 24px ;
+}
+.btn > p {
+  font-size : 13px;
+  font-weight : 200
+}
+.police-info  {
+  display: flex;
+  flex-direction: row; 
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 48px;
+  width: 25%;
+  gap : 5px
+}
+.content > img {
+  width: 20%;
 }
