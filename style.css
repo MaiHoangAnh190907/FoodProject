@@ -106,17 +106,12 @@
 .content > img {
   width: 20%;
 }
-.burger {
-  width: 25%;
-  overflow: hidden ;
-}
-.burger > img {
-  width: 100%;
-}
+
 .foods {
   display: flex;
   flex-direction: row;
-  gap : 24px
+  gap: 24px;
+  margin-bottom: 100px;
 }
 .heading {
   display: flex;
@@ -125,10 +120,9 @@
   margin-bottom: 48px;
 }
 .heading > button {
-  border : none;
+  border: none;
   border-radius: 4px;
-  background-color: #F2F4FA;
-  color : #9093A6;
-  padding : 16px 24px 16px 24px
-
+  background-color: #f2f4fa;
+  color: #9093a6;
+  padding: 16px 24px 16px 24px;
 }

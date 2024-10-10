@@ -18,6 +18,12 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
     <div class="header">
@@ -46,10 +52,10 @@
       <div class="container delivery">
         <div class="banner-info">
           <h3>Your <span>Food</span> court at home</h3>
-          <div class = "shipping"> 
+          <div class="shipping">
             <div class="btn">
               <b>Delivery</b>
-              <p>Order in </p>
+              <p>Order in</p>
             </div>
             <div class="btn">
               <b>Takeout</b>
@@ -62,7 +68,7 @@
         </div>
       </div>
       <div class="police-info shadow-sm p-3 mb-5 bg-body-tertiary rounded">
-        <div class ="content">
+        <div class="content">
           <img src="./image/Page 1.png" alt="" />
           <p>delivery in all paris in less than 30 minutes</p>
         </div>
@@ -83,31 +89,110 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <section>
+    <section class="container">
       <div class="heading">
-      <h1>
-        Restaurants
-      </h1>
-      <button>More</button>
-    </div>
-      <div class = "foods">
-      <div class="burger">
-        <img src="image/Photo-base.png" alt="">
-        <img src="image/Group 29.png" alt="">
+        <h1>Restaurants</h1>
+        <button>Show all</button>
       </div>
-      <div class="burger">
-        <img src="image/rice.png" alt="">
-        <img src="image/il_paster.png" alt="">
+      <div class="foods">
+        <!-- <div class="burger">
+          <img src="image/Photo-base.png" alt="" />
+          <img src="image/Group 29.png" alt="" />
+        </div>
+        <div class="burger">
+          <img src="image/rice.png" alt="" />
+          <img src="image/il_paster.png" alt="" />
+        </div>
+        <div class="burger">
+          <img src="image/chicken.png" alt="" />
+          <img src="image/Believe.png" alt="" />
+        </div>
+        <div class="burger">
+          <img src="image/comvietnam.png" alt="" />
+          <img src="image/vietnamese.png" alt="" />
+        </div> -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="burger">
+                <img src="image/Photo-base.png" alt="" />
+                <img src="image/burger.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="burger">
+                <img src="image/rice.png" alt="" />
+                <img src="image/il_paster.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="burger">
+                <img src="image/comvietnam.png" alt="" />
+                <img src="image/vietnamese.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="burger">
+                <img src="image/Photo-base.png" alt="" />
+                <img src="image/burger.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="burger">
+                <img src="image/rice.png" alt="" />
+                <img src="image/il_paster.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="burger">
+                <img src="image/comvietnam.png" alt="" />
+                <img src="image/vietnamese.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="burger">
+                <img src="image/Photo-base.png" alt="" />
+                <img src="image/burger.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="burger">
+                <img src="image/rice.png" alt="" />
+                <img src="image/il_paster.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="burger">
+                <img src="image/comvietnam.png" alt="" />
+                <img src="image/vietnamese.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="burger">
+                <img src="image/Photo-base.png" alt="" />
+                <img src="image/burger.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="burger">
+                <img src="image/rice.png" alt="" />
+                <img src="image/il_paster.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="burger">
+                <img src="image/comvietnam.png" alt="" />
+                <img src="image/vietnamese.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
       </div>
-      <div class="burger">
-        <img src="image/chicken.png" alt="">
-        <img src="image/Believe.png" alt="">
-      </div>
-      <div class="burger">
-        <img src="image/comvietnam.png" alt="">
-        <img src="image/vietnamese.png" alt="">
-      </div>
-    </div>
     </section>
   </body>
 </html>
