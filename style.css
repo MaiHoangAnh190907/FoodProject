@@ -126,3 +126,40 @@
   color: #9093a6;
   padding: 16px 24px 16px 24px;
 }
+.address {
+  background-color: #F2F4FA;
+  height: 297px;
+  align-items: center;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.address > p {
+  padding-top : 24px;
+  color : #3F4255;
+
+}
+.send {
+width: 88px;
+height: 72px;
+top: 113px;
+left: 1180px;
+padding: 28px 24px 28px 24px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+background-color : yellow;
+color : #B79C10;
+font-size : Martel Sans
+}
+.search-bar {
+  width: 336px;
+  height: 72px;
+  top: 113px;
+  left: 840px;
+  padding: 24px 16px 24px 16px;
+  gap: 0px;
+  border-radius: 6px 0px 0px 0px;
+  opacity: 0px;  
+}
